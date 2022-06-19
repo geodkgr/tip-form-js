@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="results" id="rslts">
+        <header id="hdr">Results</header>
+        Tip Amount <span id="amount">000</span>$<br>
+        Total Amout <span id="totalAmount">000</span>$<br>
+        Each Person Owes <span id="personOwes">000</span>$
+    </div>
+    <div class="card">
+        <header id="header">TIP FORM</header>
+        <p id="billTxt" class="txt">How Much Was The Bill ?</p>
+        <input type="number" id="bill" class="input" required>
+        <p id="personShareTxt" class="txt">How Many People Are Sharing The Bill ?</p>
+        <input type="number" id="peopleShare" class="input"><br>
+        <p id="service" class="txt">How Was Your Service ?</p>
+        <input class="dropdownmenu" id="percentage" placeholder="Choose..." readonly><button id="btn">&#8659;</button></input>
+        <div class="menuOptions" id="menu">
+            <span id="great" class="spans" data-value="0.20">Great - 20%</span><br>
+            <span id="good" class="spans" data-value="0.10">Good - 10%</span><br>
+            <span id="bad" class="spans" data-value="0.02">Bad - 2%</span>
+        </div>
+        <button id="calc">Calculate</button>
+    </div>
+</body>
+</html>

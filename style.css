@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
+#btn {
+    font-size: 3rem;
+    border: none;
+    background: none;
+}
+
+#btn:hover, #btn:focus {
+    background-color: #c8c8c8c5;
+    right: 37.8vw;
+}
+
+#tipMenu {
+    font: 2.2rem serif;
+}
+
+.card {
+    margin-left: 27vw;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+}
+
+#header {
+    font: 3.5rem Roboto;
+    color: #f6f6f6;
+    background-color: rgb(4, 95, 251);
+    width: 40vw;
+    text-align: center;
+}
+
+.txt {
+    font: 2.5rem Roboto;
+}
+
+input, .dropdownmenu {
+    font: 3rem Roboto;
+    border: solid 2px;
+    width: 30vw;
+}
+
+#btn {
+    margin-left: 67.9%;
+    position: absolute;
+    right: 37.8vw;
+    top: 63.744444vh;
+}
+
+.menuOptions {
+    font: 3rem Roboto;
+    display: none;
+}
+
+.spans {
+    border: 2px solid;
+    padding-right: 17.1vw;
+}
+
+#bad {
+    padding-right: 20.2vw;
+}
+
+#calc {
+    margin-top: 4%;
+    font: 3rem Roboto;
+    width: 30vw;
+    border: none;
+    color: #f6f6f6;
+    background-color: rgb(4, 95, 251);
+    margin-bottom: 2%;
+}
+
+#calc:hover, #calc:focus {
+    border: 2px solid #000;
+    background-color: rgb(53, 125, 248);
+}
+
+#hdr {
+    font: 3rem Roboto;
+    color: #f6f6f6;
+    background-color: rgb(4, 95, 251);
+    width: 20vw;
+    text-align: center;
+}
+
+.results {
+    position: absolute;
+    background-color: #f6f6f6;
+    font: 2rem Roboto;
+}
+
+.results {
+    display: none;
+}
